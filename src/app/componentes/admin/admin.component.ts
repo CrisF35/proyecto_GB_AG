@@ -37,7 +37,7 @@ export class AdminComponent {
       nombres: ["", [Validators.required]],
       apellidos: ["", [Validators.required]],
       cedula: ["", [Validators.required, Validators.pattern(/^\d{10}$/)]],
-      fechanacimiento: ["", [Validators.required]],
+      fechaNacimiento: ["", [Validators.required]],
       email: ["", [Validators.required, Validators.email]],
       password: ["", [Validators.required]]
     })
