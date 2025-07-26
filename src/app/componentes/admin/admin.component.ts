@@ -15,7 +15,7 @@ import { Users } from '../../interfaces/users.interface'
 
 @Component({
   selector: 'app-admin',
-  imports: [CommonModule,ReactiveFormsModule],
+  imports: [CommonModule, ReactiveFormsModule],
   templateUrl: './admin.component.html',
   styleUrl: './admin.component.css'
 })
